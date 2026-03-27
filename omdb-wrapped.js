@@ -1,12 +1,18 @@
 /* Módulo OMDBWrapper*/
 import axios from "axios";
-const APIKEY = "673a7556"; // Poné tu APIKEY, esta no funciona.
+const APIKEY = "388ef163"; // Poné tu APIKEY, esta no funciona.
 const OMDBSearchByPage = async (searchText, page = 1) => {
 let returnObject = {
 respuesta : false,
 cantidadTotal : 0,
 datos : []
 };
+
+returnObject = 'http://www.omdbapi.com/?page = 1'
+
+
+
+
 // No seas vago, acá hay que hacer el cuerpo de la función!!!
 return returnObject;
 };
