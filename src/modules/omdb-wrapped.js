@@ -66,8 +66,7 @@ let response = await axios.get(url)
 
 if(response.data.Response === "True"){
     returnObject.respuesta = true;
-    returnObject.cantidadTotal = response.data.totalResults;
-    returnObject.datos = response.data.Search;
+    returnObject.datos = response.data;
 }
 
 

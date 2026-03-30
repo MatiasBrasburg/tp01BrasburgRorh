@@ -2,6 +2,8 @@ import {OMDBSearchByPage, OMDBSearchComplete,OMDBGetByImdbID} from './src/module
 let resultado = null;
 // Test de la función OMDBSearchByPage..
 
+//DESCOMENTA PARA PROBAR LOS EJERCICIOS
+
 //EJERCICIO 1
 //resultado = await OMDBSearchByPage("Back to the Future", 1);
 //console.log("OMDBSearchByPage", resultado);
@@ -11,5 +13,5 @@ let resultado = null;
 //console.log("OMDBSearchComplete", resultado)
 
 //EJERICIO 3 
-resultado = await OMDBGetByImdbID("tt0088763")
-console.log("OMDBGetByImdbID", resultado)
+//resultado = await OMDBGetByImdbID("tt0088763")
+//console.log("OMDBGetByImdbID", resultado)
